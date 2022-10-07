@@ -20,22 +20,26 @@ namespace HomeInsurance.BusinessLayer.Services
 
         public async Task<Policy> BuyPolicy(int QuoteId, PolicyModel policyModel)
         {
-            return await _customerRepository.BuyPolicy(QuoteId, policyModel);
+             //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<Quote> RetrieveQuote(int userid)
         {
-            return await _customerRepository.RetrieveQuote(userid);
+             //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<User> SignUp(User user)
         {
-            return await _customerRepository.SignUp(user);
+            //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<Policy> ViewPolicy(string policyKey)
         {
-            return await _customerRepository.ViewPolicy(policyKey);
+            //Write Your Code Here
+            throw new NotImplementedException();
         }
     }
 }
