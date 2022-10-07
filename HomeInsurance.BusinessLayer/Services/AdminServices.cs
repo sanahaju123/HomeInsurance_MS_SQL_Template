@@ -19,37 +19,44 @@ namespace HomeInsurance.BusinessLayer.Services
 
         public async Task<Quote> AddQuote(Quote quote)
         {
-            return await _adminRepository.AddQuote(quote);
+             //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<Policy> CancelPolicy(string PolicyKey)
         {
-            return await _adminRepository.CancelPolicy(PolicyKey);
+             //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<Policy> RenewPolicy(string policyKey)
         {
-            return await _adminRepository.RenewPolicy(policyKey);
+            //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<Quote> RetrieveQuote(int userid)
         {
-            return await _adminRepository.RetrieveQuote(userid);
+             //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<User> SearchUser(int userId)
         {
-            return await _adminRepository.SearchUser(userId);
+            //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<User> SignUp(User user)
         {
-            return await _adminRepository.SignUp(user);
+            //Write Your Code Here
+            throw new NotImplementedException();
         }
 
         public async Task<Policy> ViewPolicy(string policyKey)
         {
-            return await _adminRepository.ViewPolicy(policyKey);
+            //Write Your Code Here
+            throw new NotImplementedException();
         }
     }
 }
